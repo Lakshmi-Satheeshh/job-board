@@ -1,16 +1,53 @@
-# React + Vite
+# JobBoard Front-End Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+JovBoard is a responsive front-end web project built using React and Vite.  
+It demonstrates product categories with dynamic category pages and a modern, animated hero banner.  
+The design focuses on a clean, user-friendly interface with smooth animations and responsiveness across devices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Development Process
 
-## React Compiler
+### 1. UI/UX Design
+- Created a hero banner design using Figma.  
+- Exported the banner as an image and imported it into the project.  
+- Applied a 3-second animation to the banner for a smooth zoom and move effect.  
+- Focused on clean layout, spacing, and hierarchy for better user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Front-End Development
+- Implemented React functional components for modularity:  
+  - Hero  
+  - Products  
+  - Category  
+  - Navbar, Footer, etc.
+- Linked products to their category pages dynamically using React Router.  
+- Imported all assets (images) into a centralized assets.js file for easy management.  
+- Made the entire site fully responsive for desktop, tablet, and mobile using media queries.  
+- Added animations for hero banner and smooth transitions for content.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Animated hero banner using Figma design  
+- Product categories with clickable cards  
+- Dynamic category pages showing relevant product images  
+- Fully responsive design for desktop, tablet, and mobile  
+- Modular, clean, and well-structured React code  
+- Easy-to-update assets and product information
+
+---
+
+## Tech Stack
+- React (Functional Components)  
+- Vite (Development and Build Tool)  
+- JavaScript (ES6+)  
+- CSS (Modular, Responsive, and Animated)  
+
+---
+
+## How to Run Locally
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Lakshmi-Satheeshh/job-board.git
