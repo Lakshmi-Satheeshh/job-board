@@ -1,0 +1,41 @@
+.about {
+  width: 100%;
+  padding: 80px 8%;
+  background-color: #ffffff;
+  display: block;
+  scroll-margin-top: 90px;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  display: block;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.about-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
