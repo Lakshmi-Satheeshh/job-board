@@ -48,3 +48,53 @@
 .footer-column ul li:hover {
   color: #ffffff;
 }
+
+/* Tablet styles (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 40px 20px;
+    text-align: center; /* optional, center content on smaller screens */
+  }
+
+  .footer .footer-columns {
+    display: flex;
+    flex-direction: column; /* stack columns vertically */
+    gap: 20px;
+    align-items: center;
+  }
+
+  .footer .footer-logo {
+    margin-bottom: 20px;
+  }
+
+  .footer p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile styles (max-width: 600px) */
+@media (max-width: 600px) {
+  .footer {
+    padding: 30px 10px;
+  }
+
+  .footer .footer-columns {
+    flex-direction: column; /* ensure stacked layout */
+    gap: 15px;
+    align-items: center;
+  }
+
+  .footer .footer-logo img {
+    width: 120px; /* smaller logo for mobile */
+    height: auto;
+  }
+
+  .footer p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .footer a {
+    font-size: 0.85rem; /* smaller links */
+  }
+}

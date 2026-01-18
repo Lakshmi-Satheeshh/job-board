@@ -39,3 +39,53 @@
   border-radius: 12px;
   object-fit: cover;
 }
+
+
+@media (max-width: 1024px) {
+  .about-section {
+    padding: 30px 20px;
+  }
+
+  .about-section h2 {
+    font-size: 2rem; 
+  }
+
+  .about-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .about-image {
+    width: 80%;
+    margin: 20px auto; 
+  }
+}
+
+
+@media (max-width: 600px) {
+  .about-section {
+    padding: 20px 10px;
+  }
+
+  .about-section h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .about-section p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: justify; 
+  }
+
+  .about-image {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
